@@ -16,12 +16,16 @@
   width: 100%;
 }
 
-.matrix-eisenhower .more-inf {
-  font-family: fantasy, cursive;
+.matrix-eisenhower {
+  .more-inf {
+    font-family: fantasy, cursive;
+  }
 }
+  
 
 @media (max-width:768px) {
-  .matrix-eisenhower { text-align: center;
+  .matrix-eisenhower { 
+    text-align: center;
   }
 }
 
@@ -142,9 +146,11 @@
 }
 
 /* Completed */
-#completed-tasks .task-label {
-  text-decoration: line-through
-  color: #888;
+#completed-tasks {
+  .task-label {
+    text-decoration: line-through
+    color: #888;
+  }
 }
 
 .edit-mode-input {
