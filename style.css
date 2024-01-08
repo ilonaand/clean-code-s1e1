@@ -23,7 +23,7 @@
 }
   
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .matrix-eisenhower { 
     text-align: center;
   }
@@ -47,7 +47,7 @@
 }
 
 .ul-common {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
@@ -59,7 +59,7 @@
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
-  outline:none;
+  outline: none;
 }
 
 .button-act:hover {
@@ -88,9 +88,9 @@
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
-  display:none;
+  display: none;
   width: 226px;
-  outline:none;
+  outline: none;
 }
 
 .task-input:focus {
@@ -117,7 +117,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  list-style:none;
+  list-style: none;
 }
 
 .list-item > * {
@@ -154,10 +154,10 @@
 }
 
 .edit-mode-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode-label {
-  display:none;
+  display: none;
 }
